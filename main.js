@@ -27,7 +27,7 @@ window.addEventListener('mousemove', function(event) {
     mouse.y = event.y;
     mouse.radius = 100;
 });
-
+//write text to show
 ctx.fillStyle = 'white';
 ctx.font = '30px Lato';
 ctx.fillText('P', 0, 25);
